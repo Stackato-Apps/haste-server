@@ -3,4 +3,4 @@ applications:
   mem: 128M
   services:
     file-backing:
-      type: redis
+      type: filesystem

@@ -35,6 +35,8 @@ if (!config.storage.type) {
   config.storage.type = 'file';
 }
 
+config.storage.path = process.env.STACKATO_FILESYSTEM;
+
 var Store, preferredStore;
 
 if (process.env.REDISTOGO_URL && config.storage.type === 'redis') {

@@ -24,12 +24,8 @@
   },
 
   "storage": {
-    "type": "redis",
-    "host": "0.0.0.0",
-    "port": 6379,
-    "db": 2,
-    "expire": 2592000
-  },
+    "path": "",
+    "type": "file"  },
 
   "documents": {
     "about": "./about.md"
