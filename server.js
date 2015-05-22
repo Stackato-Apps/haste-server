@@ -9,7 +9,7 @@ var DocumentHandler = require('./lib/document_handler');
 
 // Load the configuration and set some defaults
 var config = JSON.parse(fs.readFileSync('./config.js', 'utf8'));
-config.port = process.env.VCAP_APP_PORT || config.port;
+config.port = process.env.PORT || config.port;
 config.host = config.host || '0.0.0.0';
 
 // Set up the logger
