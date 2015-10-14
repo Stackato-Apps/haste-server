@@ -33,10 +33,10 @@ STDOUT.  Check the README there for more details and usages.
 3.  `npm install`
 4.  `npm start`
 
-## Pushing to Stackato
+## Pushing to HPE Helion Stackato
 
 1. Clone this repo
-2. stackato push -n
+2. `stackato push -n`
 
 ## Settings
 
