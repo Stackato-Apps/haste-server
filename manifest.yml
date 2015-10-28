@@ -1,7 +1,7 @@
 applications:
 - name: haste-server
   docker_image: stackatoapps/haste-server:latest
-  mem: 128M
+  memory: 128M
   services:
     file-backing:
       type: filesystem
