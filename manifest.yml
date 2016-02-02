@@ -1,6 +1,8 @@
 applications:
 - name: haste-server
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.5.5
   memory: 128M
   services:
     file-backing:
       type: filesystem
+  stack: cflinuxfs2
